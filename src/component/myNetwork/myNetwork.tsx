@@ -1,4 +1,6 @@
 
+"use client";
+
 interface User {
   firstName: string;
   lastName: string;
@@ -21,7 +23,7 @@ const users: User[] = [
 
 
 
-"use client";
+
 
 import { Card,CardFooter } from "@/components/ui/card"
 
